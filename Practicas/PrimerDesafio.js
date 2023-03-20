@@ -1,3 +1,5 @@
+const fs = require("fs")
+
 class ProductManager {
     products = [];
     idAuto = 1;
