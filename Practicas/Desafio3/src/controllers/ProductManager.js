@@ -7,7 +7,7 @@ class ProductManager {
 
     constructor() {
         this.#products =[];
-        this.path = `./products.json`
+        this.path = `./db/products.json`
     }
 
     async getProducts() {
@@ -28,7 +28,7 @@ class ProductManager {
             const valid = newProduct.find ((p) => p.id === product.id || p.code === product.code);
 
             if (valid) {
-                throw new Error ("Id y/o code repetido. Intentarlo nuevamene")
+                throw new Error ("Id y/o code repetido. Intentarlo nuevamente")
             }
 
             if (newProduct.length > 0) {
@@ -39,7 +39,7 @@ class ProductManager {
             newProduct.push({
                 id: this.idAuto++,
                 ...product,
-            })
+            });
 
             await fs.writeFile(this.path, JSON.stringify(newProduct, null, 2));
             return "Objeto creado"
@@ -58,8 +58,9 @@ class ProductManager {
 
             if (!searchProduct) {
                 throw new Error("No se encontro el producto. Intentelo nuevamente");
+            } else {
+                return searchProduct;
             }
-            return searchProduct;
         } catch (error) {
             throw new Error(error);
         }
