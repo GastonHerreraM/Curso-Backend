@@ -5,10 +5,10 @@ const CartRouter = Router();
 const cartManager = new CartManager();
 
 CartRouter.get("/:cid", async (req, res) => {
-    const { cid } = req.params;
+    const cartId = +req.params.cid;
 
     try {
-        const cart = await cartManager.getProductFromCartId(cid);
+        const cart = await cartManager.getProductFromCartId(cartId);
         res.json(cart);
     } catch (error) {
         res.status(404).send("No se encontro el id y/o el producto. Intentelo nuevamente");
@@ -16,7 +16,7 @@ CartRouter.get("/:cid", async (req, res) => {
 });
 
 CartRouter.post("/", async (req, res) => {
-    const { body } = req
+    const body = req.body
 
     try {
         const newCart = await cartManager.addCart(body);
