@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "title": "Mario Coins",
+    "description": "Las monedas de la serie de Super Mario Bros.",
+    "price": 12,
+    "thumbnail": "[]",
+    "code": "C01nS",
+    "stock": 25,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 2,
+    "title": "Question Mark Block",
+    "description": "Icono bloque con el signo de pregunta de la serie de Super Mario Bros.",
+    "price": 15,
+    "thumbnail": "[]",
+    "code": "BL0cK",
+    "stock": 17,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 3,
+    "title": "Blue Shell",
+    "description": "Reconocido item de la serie de Mario Kart",
+    "price": 20,
+    "thumbnail": "[]",
+    "code": "B1U3SH311",
+    "stock": 5,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 4,
+    "title": "Mushroom",
+    "description": "Item de la serie de Super Mario Bros.",
+    "price": 24,
+    "thumbnail": "[]",
+    "code": "MushRum",
+    "stock": 21,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 5,
+    "title": "Golden Rings",
+    "description": "Item de la serie de Sonic The Hedgehog",
+    "price": 10,
+    "thumbnail": "[]",
+    "code": "Gold3nR1ngS",
+    "stock": 13,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 6,
+    "title": "Hearts",
+    "description": "Item de la serie de The Legend Of Zelda",
+    "price": 25,
+    "thumbnail": "[]",
+    "code": "H34rts",
+    "stock": 19,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 7,
+    "title": "Master Sword",
+    "description": "Espada de la serie de The Legend Of Zelda",
+    "price": 200,
+    "thumbnail": "[]",
+    "code": "M4st3rSw0rd",
+    "stock": 2,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 8,
+    "title": "Pikachu",
+    "description": "El pokemon mas reconocido de la serie",
+    "price": 32,
+    "thumbnail": "[]",
+    "code": "P1k4chu",
+    "stock": 22,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 9,
+    "title": "Pokeball",
+    "description": "item de la serie Pokemon",
+    "price": 110,
+    "thumbnail": "[]",
+    "code": "P0k3b4ll",
+    "stock": 6,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 10,
+    "title": "Pokedex",
+    "description": "item de la serie Pokemon",
+    "price": 170,
+    "thumbnail": "[]",
+    "code": "P0k3d3x",
+    "stock": 3,
+    "status": true,
+    "category": "old school"
+  },
+  {
+    "id": 11,
+    "title": "pipboy",
+    "description": "item de la serie Fallout",
+    "price": 470,
+    "thumbnail": "[]",
+    "code": "P1Pb0Y",
+    "stock": 3,
+    "status": true,
+    "category": "old school"
+  }
+]
